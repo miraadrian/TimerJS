@@ -49,3 +49,11 @@ function zeraRelogio(){
     timer = 0;
     relogio.style.color = 'black';
 };
+
+
+AOS.init({
+    disable: 'mobile', // ou true
+    startEvent: 'DOMContentLoaded', // ou configura para não animar na entrada
+    once: false,
+    duration: 0 // ou remove AOS completamente
+  });

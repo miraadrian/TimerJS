@@ -29,11 +29,15 @@ body{
     margin:50px auto;
     background: #fff;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 5px 25px black;
 
+}
+
+.container h1{
+    font-size: 2em;
 }
 
 form input, form label, form button{
@@ -71,55 +75,70 @@ form button:active{
 }
 .relogio{
     font-size: 3em;
+    font-weight: 700;
+    
+}
+.relogio{
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.relogio:hover{
+    font-size: 3.5em;
+    
 }
 
 .iniciar{
     border: none;
     background: var(--primary-color-darker);
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
-    height: 25px;
+    height: auto;
     cursor:pointer;
     margin-top: 50px;
     box-shadow: 1px 1px 3px black;
-   
+   transition: .5s;
 }
 .pausar{
     border: none;
     background: var(--primary-color-darker);
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
-    height: 25px;
+    height: auto;
     cursor:pointer;
     margin-top: 50px;
     box-shadow: 1px 1px 3px black;
-   
+   transition: .5s;
 }
 .zerar{
     border: none;
     background: var(--primary-color-darker);
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
-    height: 25px;
+    height: auto;
     cursor:pointer;
     margin-top: 50px;
     box-shadow: 1px 1px 3px black;
-   
+   transition: .5s;
 }
 
 .iniciar:hover{
-    background: var(--primary-color-lighter);
-    transition: .5s;
+    background: var(--primary-color);
+    font-size: 30px;
+    
 }
 
 .pausar:hover{
-    background: var(--primary-color-lighter);
-    transition: .5s;
+    background: var(--primary-color);
+   font-size: 30px;
 }
 .zerar:hover{
-    background: var(--primary-color-lighter);
-    transition: .5s;
+    background: var(--primary-color);
+    font-size: 30px;
+}
+.botoes{
+    margin-top: 2px;
+    padding-bottom: 25px;
 }
