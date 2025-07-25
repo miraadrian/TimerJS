@@ -21,12 +21,18 @@ body{
   line-height: 1.5em;
 }
 
+
 .container{
-    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
     margin:50px auto;
     background: #fff;
     border-radius: 10px;
-    padding: 20px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 5px 25px black;
 
 }
 
@@ -62,4 +68,58 @@ form button:hover{
 
 form button:active{
     background: var(--primary-color-lighter);
+}
+.relogio{
+    font-size: 3em;
+}
+
+.iniciar{
+    border: none;
+    background: var(--primary-color-darker);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 25px;
+    cursor:pointer;
+    margin-top: 50px;
+    box-shadow: 1px 1px 3px black;
+   
+}
+.pausar{
+    border: none;
+    background: var(--primary-color-darker);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 25px;
+    cursor:pointer;
+    margin-top: 50px;
+    box-shadow: 1px 1px 3px black;
+   
+}
+.zerar{
+    border: none;
+    background: var(--primary-color-darker);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 25px;
+    cursor:pointer;
+    margin-top: 50px;
+    box-shadow: 1px 1px 3px black;
+   
+}
+
+.iniciar:hover{
+    background: var(--primary-color-lighter);
+    transition: .5s;
+}
+
+.pausar:hover{
+    background: var(--primary-color-lighter);
+    transition: .5s;
+}
+.zerar:hover{
+    background: var(--primary-color-lighter);
+    transition: .5s;
 }
